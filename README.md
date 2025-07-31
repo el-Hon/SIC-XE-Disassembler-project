@@ -1,1 +1,3 @@
-# SIC-XE-Disassembler-project
+#  SIC/XE Disassembler
+
+This project is a Python-based disassembler for the SIC/XE architecture that converts object programs into human-readable assembly code. It processes input files in HTE format (`hte.txt`), interprets Header, Text, and End records, decodes machine instructions using predefined opcode maps for Form 1 and Form 3 operations, and outputs both a symbol table (`symbols.txt`) and an assembly listing (`assembly.txt`). The disassembler reconstructs labels, handles indexed addressing, and represents directives such as `START`, `RESB`, and `BYTE` to reflect the original program structure. This project demonstrates a strong grasp of system-level programming, assembler architecture, and symbolic translation logic. It's an educational and practical tool for understanding how high-level assembly can be recovered from low-level object code in the context of SIC/XE instruction sets.
